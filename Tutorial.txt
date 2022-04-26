@@ -1,0 +1,16 @@
+0. Jalankan MySQL & Apache Server di aplikasi XAMPP
+1. Copy folder perpustakaan ke folder kalian
+2. Setelah itu buka phpmyadmin dan buat database perpustakaan
+3. Buka .env di folder projek kalian dan pastikan nama database nya perpustakaan
+4. Ketikkan perintah php artisan migrate untuk melakukan migrasi tabel ke perpuskataan
+5. Ketikkan perintah php artisan db:seed untuk data awal yang diperlukan aplikasi seperti user,
+penerbit dan kategori buku
+6. Jika sudah, jalankan aplikasi dengan perintah php artisan serve
+7. Masuk ke ip_kalian/login dan masuk ke aplikasi dengan user berikut yang sudah kita seed
+sebelumnya
+email: admin@localhost.org
+password: password
+8. Kalian bisa menambahkan buku, kategori, member dan melakukan peminjaman dan pengembalian data
+pada aplikasi ini!
+
+Note: gunakan file cover cloud untuk data buku
